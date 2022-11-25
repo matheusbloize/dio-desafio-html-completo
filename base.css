@@ -1,0 +1,169 @@
+html,
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: rgba(0, 255, 255, .5);
+    padding: 10px 20px 0px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgba(35, 33, 39, 1);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 10;
+}
+
+.menu a:hover {
+    color: rgb(137, 132, 149);
+}
+
+.menu-page a:nth-child(1) {
+    color: #fff;
+}
+
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 250px;
+    background-image: url('/assets/clinica.jpg');
+    background-position: center;
+}
+
+.about {
+    background-image: url('/assets/recepcao.jpg');
+}
+
+.schedules {
+    background-image: url('./assets/horarios.jpg');
+    background-size: cover;
+    background-position: top right;
+}
+
+.contact {
+    background-image: url('./assets/contato.jpg');
+    background-size: cover;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.content p {
+    line-height: 2;
+    letter-spacing: 5px;
+
+}
+
+.footer {
+    background-color: rgba(35, 33, 39, 1);
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: #fff;
+    font-weight: bold;
+    text-align: start;
+}
+caption {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(35, 33, 39, .1);
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgba(35, 33, 39, .1);
+    border: 2px solid rgb(35, 33, 39);
+    padding: 10px;
+}
+
+td {
+    border: 2px solid rgb(35, 33, 39);
+    text-align: center;
+    padding: 10px;
+}
+
+legend {
+    color: rgba(0, 255, 255, 1);
+    font-size: 16px;
+}
+
+form fieldset{
+    margin-top: 10px;
+    background-color: rgb(60, 60, 60);
+    display: flex;
+    align-items: flex-start;
+    height: 200px;
+}
+
+input:nth-child(2){
+    position: relative;
+    top: 20px;
+}
+
+input:nth-child(3){
+    position: relative;
+    right: 170px;
+    top: 100px;
+}
+
+textarea {
+    position: relative;
+    right: 170px;
+    top: 30px;
+    min-height: 150px;
+}
+
+input:nth-child(6){
+    padding: 5px;
+    position: relative;
+    top: 20px;
+}
+input:nth-child(7){
+    padding: 5px;
+    position: relative;
+    top: 100px;
+    right: 54px;
+}
